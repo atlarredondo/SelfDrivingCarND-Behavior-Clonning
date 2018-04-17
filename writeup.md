@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 [image2]: ./writeup_imgs/first_run_bad_flipped.jpg "Flipped Image"
 [image3]: ./writeup_imgs/backwards_run.jpg "Backwards Run"
 [image4]: ./writeup_imgs/center_example.jpg "Center Run"
-[image4]: ./writeup_imgs/right_example.jpg "Left Run"
-[image4]: ./writeup_imgs/left_example.jpg "Right Run"
+[image5]: ./writeup_imgs/right_example.jpg "Left Run"
+[image6]: ./writeup_imgs/left_example.jpg "Right Run"
 
 
 ## Rubric Points
@@ -111,6 +111,8 @@ with a missing lane.
 
 Here is the a summary of the final model architecture.
 Model Summary:
+
+
 Layer (type)                     Output Shape          Param #     Connected to                    
 ====================================================================================================
 input_2 (InputLayer)             (None, 160, 320, 3)   0                                           
