@@ -162,20 +162,24 @@ stay straight.
 I also drove the car backwards to add more training data.
 
 Here is an example of a sharp turn image:
+
 ![alt text][image1]
 
 The validation loss was not decreasing at the rates that I expected to I enhanced the dataset by adding flipping the images in the whole dataset.
-Here is an example of a flipped image.
+Here is an example of a flipped image:
+
 ![alt text][image2]
 
 When I realized that data quality is important for the testing performance, I decided to re record the other lap but this time driving slow in order to keep the car in the center as much as possible. Also, I took advantage of the left and right images.
 
-Here are some examples of the center, left and right images
+Here are some examples of the center, left and right images:
+
 ![alt text][image4]
 ![alt text][image5]
 ![alt text][image6]
 
-Also, for the backwards run lap.
+Also, for the backwards run lap:
+
 ![alt text][image3]
 
 
