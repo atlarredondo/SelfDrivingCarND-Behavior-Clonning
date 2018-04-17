@@ -112,7 +112,7 @@ with a missing lane.
 Here is the a summary of the final model architecture.
 Model Summary:
 
-
+```
 Layer (type)                     Output Shape          Param #     Connected to                    
 ====================================================================================================
 input_2 (InputLayer)             (None, 160, 320, 3)   0                                           
@@ -155,6 +155,7 @@ Non-trainable params: 0
 ____________________________________________________________________________________________________
 None
 dict_keys(['loss', 'val_loss'])
+```
 
 #### 3. Creation of the Training Set & Training Process
 
