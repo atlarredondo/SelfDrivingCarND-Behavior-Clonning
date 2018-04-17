@@ -70,7 +70,7 @@ In addition, the model was tested frequently to ensure that it was not overfitti
 
 #### 3. Model parameter tuning
 
-The model used an adam optimizer, so the learning rate was not tuned manually (model.py line 25).
+The model used an adam optimizer, so the learning rate was not tuned manually.
 
 #### 4. Appropriate training data
 
