@@ -193,3 +193,8 @@ I learned that data, data and more data are the most important factors to improv
 
 
 
+# References
+
+End-to-End Deep Learning for Self-Driving Cars
+NVIDIA Developer Blog
+https://devblogs.nvidia.com/deep-learning-self-driving-cars/
