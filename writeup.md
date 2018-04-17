@@ -1,7 +1,5 @@
 # **Behavioral Cloning**
 
-### You can use this file as a template for your write up if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
 **Behavioral Cloning Project**
@@ -85,7 +83,7 @@ For details about how I created the training data, see the next section.
 The overall model development strategy  was to use something similar to what worked on the Traffic Sign Classifier project.
 I started by using a similar architecture by adding multiple Convolutional layers, followed by max pooling layers and finally a series
 or dense layers. During this step in the development, I used a single track lap of data and only the center images.
-This solutioned worked but it was not giving me a loss that was less than 0.07.
+This solutioned worked well but my model loss stayed at 0.07.
 After this, I tried to use the NVIDIA self driving car network architecture. It was interesting to see the importance of increasing field receptive to gather as much feature information from the image as possible by adding a series of convolutional layers without pooling layers.
 
 This solution gave me better results, and I experimented by removing the last convolutional layer and adding an Inception Module. This only made the
@@ -100,7 +98,7 @@ When I tested the model it performed badly on the sharp turns, so I decided to a
 I added enhanced images by flipping the center images my first dataset and added another set of data by recording a lap backwards.
 This improve the model but it was still not good enough and it drifted from the center in the sharp corners.
 
-At this moment, I realized that acquiring more data was key to improve the model testing performance even though this caused the loss to increased by a little bit.
+During this time, I realized that acquiring more data was key to improve the model testing performance even though this caused the loss to increased by a little bit.
 I re recorded the data and made sure to stay in the center of the road by driving the car slowly. In addition, I decided to add the left and right images and use a correction factor of +/-0.2.
 My final testing dataset consisted of the two laps of data, one forward the another one backwards, with the center, left, right raw and flipped images.
 
